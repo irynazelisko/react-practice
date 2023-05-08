@@ -192,12 +192,36 @@
   font-size: 14px;
   font-weight: 400;
   opacity: 0.7;
+  margin-bottom: 10px;
 }
 .work-descr:hover {
   opacity: 1;
   transition: 1s ease-in;
 }
-
+.form-button {
+  margin-top: 15px;
+  height: 30px;
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+  background-color: var(--color-side-block);
+  cursor: pointer;
+}
+.form-button:hover {
+font-weight: bold;
+}
+.link-description {
+  color: var(--color-primary);
+}
+.link-description:visited {
+  color: var(--color-text);
+}
+.link-description:hover {
+  text-decoration: none;
+}
+.form-wrapper {
+ margin: 5px;
+ 
+}
 .ed-descr {
   font-size: 14px;
   font-weight: 400;
