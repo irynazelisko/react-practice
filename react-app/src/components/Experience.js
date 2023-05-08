@@ -22,7 +22,7 @@ export function Experience() {
             description={item.description}
             link={item.link}
           />
-          ))};
+          ))}
         </div>
       </div>
     );
