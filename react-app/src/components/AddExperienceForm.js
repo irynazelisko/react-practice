@@ -57,5 +57,5 @@ export default function AddExperienceForm({ addExperience }) {
 
             <button type="submit" className='form-button'>Add experience</button>
         </form>
-    )
+    );
 };

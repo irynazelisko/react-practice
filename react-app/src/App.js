@@ -5,6 +5,7 @@ import { MyPhoto } from './components/MyPhoto';
 import { Counter } from './components/Counter';
 import  WorkExperienceDetails  from './components/WorkExperienceDetails';
 import  AddExperienceForm  from './components/AddExperienceForm';
+import {GitHubRepos} from './components/GitHubRepos'
 
 import '../src/styles.scss/styles.css';
 
@@ -26,7 +27,6 @@ function App() {
               <MyPhoto imageLink={photoLink}/>
             </div>
             <Contacts/>
-      
           </div>
         </div>
         <div className="central-block">
@@ -36,6 +36,7 @@ function App() {
           ))}
           <AddExperienceForm addExperience={addWorkExperience}/>
           <Counter/>
+          <GitHubRepos/>
         </div>
       </div>
     </div>

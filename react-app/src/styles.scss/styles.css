@@ -198,6 +198,7 @@
   opacity: 1;
   transition: 1s ease-in;
 }
+
 .form-button {
   margin-top: 15px;
   height: 30px;
@@ -207,8 +208,9 @@
   cursor: pointer;
 }
 .form-button:hover {
-font-weight: bold;
+  font-weight: bold;
 }
+
 .link-description {
   color: var(--color-primary);
 }
@@ -218,12 +220,27 @@ font-weight: bold;
 .link-description:hover {
   text-decoration: none;
 }
+
 .form-wrapper {
- margin: 5px;
+  margin: 5px;
 }
+
 .ed-descr {
   font-size: 14px;
   font-weight: 400;
+}
+
+.repo-id {
+  border: 1px solid var(--color-primary);
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.repo-description {
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
 }
 
 @media screen and (max-width: 385px) {
